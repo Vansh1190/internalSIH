@@ -1,0 +1,14 @@
+.EventCards{
+    margin: 20px 0 ;
+    width: 100%;
+}
+.AllEventsIonItem{
+    width: 50%;
+    background-color: transparent;
+}
+.AllEventsIonCol{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}

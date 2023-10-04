@@ -1,0 +1,110 @@
+.AttendenceNMNot {
+    color: grey;
+    --indicator-height: 5px !important;
+    --indicator-color: var(--ion-color-dark);
+}
+.AttendenceAAbsent{
+    /* background-color: var(--ion-color-danger); */
+    color: var(--ion-color-danger);
+    --indicator-height: 5px !important;
+    --indicator-color: var(--ion-color-danger);
+}
+.AttendencePPresent{
+    color: var(--ion-color-success);
+    --indicator-height: 5px !important;
+    --indicator-color: var(--ion-color-success);
+}
+
+
+ion-segment-qrbutton {
+    --indicator-color: #35b3d9 !important;
+   
+}
+  
+  ion-segment-qrbutton.md {
+    --color: #fdfdfd;
+    border-radius: 20px;
+    /* --background-checked: #33c2b2;    */
+    --color-checked: var(--ion-color-danger);
+    --indicator-height: 3px;
+    --indicator-color : var(--ion-color-primary)
+
+    /* --indicator-border-radius:20px; */
+    /* --border-radius: 20px; */
+
+  }
+.qrbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 9px 12px; */
+  gap: 8px;
+  height: 40px;
+  width: 172px;
+  border: none;
+  /* background: #FF2849; */
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.lable {
+  line-height: 22px;
+  font-size: 22px;
+  color: #fff;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.qrbutton:hover .svg-icon {
+  animation: flickering 2s linear infinite;
+}
+
+@keyframes flickering {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  52% {
+    opacity: 1;
+  }
+
+  54% {
+    opacity: 0;
+  }
+
+  56% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  92% {
+    opacity: 0;
+  }
+
+  94% {
+    opacity: 1;
+  }
+
+  96% {
+    opacity: 0;
+  }
+
+  98% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
